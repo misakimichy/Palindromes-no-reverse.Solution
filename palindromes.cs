@@ -14,8 +14,6 @@ public class Check{
     }
 
     public bool isPalindrome(string input){
-        // char[] seperator = {''};
-        // string[] chars = input.Split(seperator);
         double length = input.Length;
         for(int i = 0; i < (Math.Floor(length/2)); i++){
             if(!(input[i] == input[Convert.ToInt32(length - (i + 1))])){
