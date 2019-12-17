@@ -5,7 +5,7 @@ namespace Palindromes
 {
     public class Check
     {
-        public bool isPalindrome(string input)
+        public bool IsPalindrome(string input)
         {
             double length = input.Length;
             for(int i = 0; i < (Math.Floor(length/2)); i++){
